@@ -1,0 +1,137 @@
+*{margin:0;padding:0}
+body{font-family:Century gothic,Arial;font-size:14px;line-height:18px;background:url(img/bg.png)repeat-y}
+.fix{overflow:hidden}
+h1,h2,h3,h4,h5,h6{margin-bottom:15px;font-weight:normal}
+a{text-decoration:none;}
+
+/*------------------------------------
+-----------------------------------*/
+.main_area {
+	width: 940px;
+	margin: 15px auto;
+	background: url(img/wrapper.png)repeat-x scroll 0 0 #C5C5C5;
+	border-radius: 10px;
+	padding: 10px;
+	display: block;
+	padding-bottom: 0px;
+}
+.header{}
+.logo{
+	margin-right:15px;
+	float:left;
+}
+.logo img{
+	
+	
+}
+.site_title{
+	float:left;
+}
+.site_title h1 {
+	font-size: 60px;
+	margin-top: 26px;
+}
+.site_title h2 {
+	margin-top: 33px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.header_right{
+	float:right;
+}
+.header_right p{margin-right:25px}
+.social_bookmark {
+	margin-left: 10px;
+}
+.social_bookmark img {
+	padding: 5px 0 0 5px;
+}
+.mainmenu {
+	background: url(img/menu.png)repeat-x scroll 0 0;
+	height: 45px;
+	border-radius: 10px;
+	margin-bottom: 8px;
+}
+.mainmenu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.mainmenu ul li{
+	background: url(img/seprator.png)no-repeat scroll right center;
+	float:left;
+}
+.mainmenu ul li:last-child{
+	background:none;
+}
+.mainmenu ul li a {
+	color: #fff;
+	font-size: 15px;
+	padding: 10px 15px;
+	display: block;
+}
+
+.mainmenu ul li a:hover{}
+.slider{}
+.slider img {
+	width: 100%;
+}
+.call_to_action{
+	background:url(img/call_to_action.png)repeat-x scroll 0 0 #fff;
+	border-radius:10px;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.call_to_action h1 {
+	padding: 12px;
+	float: left;
+	font-size: 36px;
+	margin-right: 10px;
+}
+.call_to_action p {
+	margin-left: 10px;
+	float: left;
+	font-size: 12px;
+	width: 307px;
+	padding-top: 10px;
+}
+.promotions {
+	width: 956px;
+}
+.samepost {
+	width: 229px;
+	height: 127px;
+	float: left;
+	margin-right: 8px;
+	border-radius: 10px;
+	position:relative;
+}
+.promo_one{background:url(img/footer-1.png)no-repeat}
+.promo_two{background:url(img/footer-2.png)no-repeat}
+.promo_three{background:url(img/footer-3.png)no-repeat}
+.promo_four{background:url(img/footer-4.png)no-repeat}
+.samepost h2 {
+	position: absolute;
+	margin-top: 74px;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	width: 232px;
+}
+.footer {
+	background: url(img/footer_bg.png)repeat-x scroll 0 0;
+	width: 920px;
+	margin-left: -10px;
+	padding: 20px;
+	color: #000;
+	font-size:12px;
+}
+.footer ul{margin:0;padding:0;list-style:none;overflow:hidden;text-align:center}
+.footer ul li{display:inline}
+.footer ul li a {
+	padding: 2px 10px;
+	color: #000;
+}
+.footer ul li a:hover{}
+.footer p{text-align:center}
